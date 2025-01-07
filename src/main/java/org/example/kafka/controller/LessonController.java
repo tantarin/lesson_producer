@@ -1,5 +1,6 @@
-package org.example.kafka;
+package org.example.kafka.controller;
 
+import org.example.kafka.LessonRequest;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.web.bind.annotation.*;
 
@@ -7,7 +8,6 @@ import java.util.Optional;
 
 
 import java.util.Map;
-import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 
 @RestController
